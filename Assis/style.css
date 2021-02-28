@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url(imagens/fundo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#organizaTopo{
+    position: relative;
+    width: 600px;
+    background-color: rgba(204,204,204,0.7);
+    border-radius: 0px 0px 5px 5px;
+    margin: 0px auto;
+    border-bottom:2px solid #000;
+    border-right:2px solid #000;
+    border-left:2px solid #000;
+}
+nav{
+    position: relative;
+    width: 300px;
+    height: 60px;
+    margin: 0px auto;
+    
+   
+}
+nav a{
+    color: black;
+    text-decoration:none;
+    font-size: 30px;
+    margin: 5px auto;
+    margin-right: 20px;
+   
+    
+    font-family: 'Lato', sans-serif;
+  
+}
+nav a:hover{
+    text-decoration: underline #9A0606;
+}
+
+
+/*Cadastro*/
+form{
+    position: relative;
+    width: 720px;
+    height: 250px;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: #cccccc;
+    border: 2px solid #000;
+}
+fieldset{
+    border:none;
+}
+input,select,textarea,button,form{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.campo{
+    margin-bottom: 16px;
+}
+.campo label{
+    margin-bottom: 3px;
+    color: #000;
+    display: block;
+    
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 16px;
+}
+.campo textarea{
+    padding:3px;
+    border: 2px solid #000;
+    display: block;
+    box-shadow: 2px 2px 2px rgba(204,204,204,0.2);   
+}
+.campo select option{
+    padding-right: 16px;
+}
+.campo input:focus,
+.campo select:focus,
+.campo textArea:focus{
+    background-color: #fff;
+} 
+.botao{
+    font-size: 24px;
+    background-color: #FFF;
+    border:0;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #9A0606;
+    padding: 3px 9px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0,0.5);    
+}
+.botao:hover{
+    background-color: #000;
+    text-shadow:none;
+    box-shadow: inset 2px 2px 2px rgba (0,0,0,0.2);
+}
+.botao,select,label.checkbox{
+    cursor: pointer;
+}
+
+
+#consulta{
+    position:  relative;
+    width: 450px;
+    height: 230px;
+    margin: 100px auto;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #cccccc;
+    border: 2px solid #000;
+}
+#botaopesquisa{
+    position:  relative;
+    width: 800px;
+    height: 200px;
+    margin: 0px auto;
+    font-size: 30px;
+      
+}
